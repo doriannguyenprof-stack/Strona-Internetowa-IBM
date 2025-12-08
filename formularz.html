@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Egzoszkielety | Kontakt</title>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<nav>
+			<a href="./index.html">Homepage</a>
+			<a href="./formularz.html">Formularz kontaktowy</a>
+			<a href="./katalog.html">Katalog egzoszkieletów</a>
+			<a href="./egzoszkielety.html">Czym są egzoszkielety?</a>
+			<a href="./protezy.html">Czym są protezy?</a>
+		</nav>
+		<main>
+			<form>
+				<div class="form-element">
+					<label for="name-input">Imię / nick</label>
+					<input id="name-input" required name="name" type="text" />
+				</div>
+				<div class="form-element">
+					<label for="email-input">Email</label>
+					<input
+						id="email-input"
+						required
+						name="email"
+						type="email"
+					/>
+				</div>
+				<div class="form-element">
+					<label for="phone-input">Telefon</label>
+					<input id="phone-input" required type="tel" name="phone" />
+				</div>
+				<div class="v-form-element">
+					<label for="question-input"
+						>Jakie masz zapytanie na temat naszych produktów?</label
+					>
+					<textarea
+						id="question-input"
+						cols="50"
+						rows="20"
+					></textarea>
+				</div>
+				<input type="submit" value="Wyślij" />
+			</form>
+		</main>
+	</body>
+</html>

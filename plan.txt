@@ -1,0 +1,11 @@
+1. Temat: dynamiczny katalog egzoszkieletów i protez
+2. HTML: 
+    A) katalog produktów z wyszukiwarką (kategorie, szukanie tekstowe po nazwie)
+    B) formularz kontaktowy z opinią o stronie
+3. CSS:
+    A) stylowanie strony
+4. Javascript
+    A) odczyt danych z JSONa
+    B) wyszukiwanie produktów i wyświetlanie ich
+5. JSON
+    A) dane do katalogu
