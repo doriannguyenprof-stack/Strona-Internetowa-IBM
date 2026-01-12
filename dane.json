@@ -3,23 +3,13 @@
 		{
 			"type": "egzoszkielet",
 			"image_url": "https://eu.hypershell.tech/cdn/shop/files/pc-go1.png?v=1763460526",
-			"price_pln": 5000,
-			"specification": {
-				"model": "Szkieletor 3000",
-				"year_of_production": 1850,
-				"country_of_origin": "Polska"
-			},
+			"name": "Szkieletor 3000",
 			"description": "Tutaj będzie opis"
 		},
 		{
 			"type": "proteza",
 			"image_url": "https://shop.ottobock.us/medias/3R80-for-US-Mechanical-Knee-Product-Family-Page.jpg?context=bWFzdGVyfHJvb3R8MjEzNTk4fGltYWdlL2pwZWd8aDYwL2g5Ni85MDc4NDU5NDY1NzU4LmpwZ3wzMTVjNmRmMDY1YjkxYmYwODVjZjQxMjBiODkzZGQyMGM5ZjIzYWNiODhlMjhmNmFiYzUyMTZmNmZiNmEzNzgz",
-			"price_pln": 2000,
-			"specification": {
-				"model": "Gnat 500",
-				"year_of_production": 1791,
-				"country_of_origin": "Niemcy"
-			},
+			"name": "Gnat 500",
 			"description": "Tutaj będzie opis"
 		}
 	]
