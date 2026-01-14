@@ -8,8 +8,16 @@
 		},
 		{
 			"type": "proteza",
-			"image_url": "https://shop.ottobock.us/medias/3R80-for-US-Mechanical-Knee-Product-Family-Page.jpg?context=bWFzdGVyfHJvb3R8MjEzNTk4fGltYWdlL2pwZWd8aDYwL2g5Ni85MDc4NDU5NDY1NzU4LmpwZ3wzMTVjNmRmMDY1YjkxYmYwODVjZjQxMjBiODkzZGQyMGM5ZjIzYWNiODhlMjhmNmFiYzUyMTZmNmZiNmEzNzgz",
+			"subtype": "górna",
+			"image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fopenbionics.com%2Fwp-content%2Fuploads%2F2021%2F05%2FMGS_Dan-00032-copy-4-scaled.jpg&f=1&nofb=1&ipt=8cdc42b1c84ba4dd9982b8c6d7a63c4665729411b550ae116ab26eb0b0a5e365",
 			"name": "Gnat 500",
+			"description": "Tutaj będzie opis"
+		},
+		{
+			"type": "proteza",
+			"subtype": "dolna",
+			"image_url": "https://shop.ottobock.us/medias/3R80-for-US-Mechanical-Knee-Product-Family-Page.jpg?context=bWFzdGVyfHJvb3R8MjEzNTk4fGltYWdlL2pwZWd8aDYwL2g5Ni85MDc4NDU5NDY1NzU4LmpwZ3wzMTVjNmRmMDY1YjkxYmYwODVjZjQxMjBiODkzZGQyMGM5ZjIzYWNiODhlMjhmNmFiYzUyMTZmNmZiNmEzNzgz",
+			"name": "Kościec 300",
 			"description": "Tutaj będzie opis"
 		}
 	]

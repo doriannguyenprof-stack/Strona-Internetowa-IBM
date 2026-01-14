@@ -9,3 +9,12 @@
     B) wyszukiwanie produktów i wyświetlanie ich
 5. JSON
     A) dane do katalogu
+
+
+
+--------------
+
+1. Walidacja inputu w formularzu, minimum znaków w opinii, maks znaków w imieniu/emailu, regex w telefonie
+2. Responsive design formularza
+3. Logo strony w headerze
+4. Powiększanie zdjęć na klik
