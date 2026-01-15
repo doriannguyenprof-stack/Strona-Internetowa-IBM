@@ -18,3 +18,6 @@
 2. Responsive design formularza
 3. Logo strony w headerze
 4. Powiększanie zdjęć na klik
+
+5. egzoszkielety.html
+6. protezy.html
