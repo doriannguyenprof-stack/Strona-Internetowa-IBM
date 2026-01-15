@@ -26,6 +26,12 @@ const nameSearch = document.getElementById("name-search");
 nameSearch.addEventListener("input", () => {
 	showProducts();
 });
+// Elementy powiększania przy kliknięciu
+const imageModal = document.getElementById("image-modal");
+const imageModalImg = document.getElementById("image-modal-img");
+const imageModalBackdrop = document.getElementById(
+	"image-modal-backdrop",
+);
 
 function showProducts() {
 	// Czyścimy katalog, by od nowa go zbudować
@@ -76,10 +82,15 @@ function showProducts() {
 		// Dodajemy wyświetlanie danych do elementu
 		div.innerHTML = `
         <div>Typ: ${product.type}</div>
-        <img src="${product.image_url}" alt="product image"/>
+        <img src="${product.image_url}" alt="product image"
+		class="product-image" data-full="${product.image_url}"/>
         <div>Nazwa: ${product.name}</div>
         ${subtype_div}
         <div>Opis: ${product.description}</div>
+		const img = div.querySelector(".product-image");
+		img.addEventListener("click", () => {
+			openImageModal(img.dataset.full);
+		});
     `;
 
 		// Dodanie elementu do strony
@@ -88,3 +99,16 @@ function showProducts() {
 }
 
 showProducts();
+
+// Funkcja otwierania i zamykania poszerzonego obrazu
+function openImageModal(src) {
+	imageModalImg.src = src;
+	imageModal.classList.remove("hidden");
+}
+
+function closeImageModal() {
+	imageModal.classList.add("hidden");
+	imageModalImg.src = "";
+}
+
+imageModalBackdrop.addEventListener("click", closeImageModal);
