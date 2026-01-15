@@ -1,12 +1,13 @@
+* {
+	box-sizing: border-box;
+}
+
 :root {
 	font-family: "Lucida Console";
 	font-size: 12px;
 }
 
-body {
-	margin: 0;
-	padding: 0;
-}
+body,
 
 html {
 	width: 100%;
