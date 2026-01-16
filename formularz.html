@@ -5,17 +5,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>Egzoszkielety | Kontakt</title>
 		<link href="style.css" rel="stylesheet" />
+		<script src="form.js" defer></script>
 	</head>
 	<body>
 		<nav>
 			<a href="./index.html">Homepage</a>
 			<a href="./formularz.html">Formularz kontaktowy</a>
-			<a href="./katalog.html">Katalog egzoszkieletów</a>
+			<a href="./katalog.html">Katalog produktów</a>
 			<a href="./egzoszkielety.html">Czym są egzoszkielety?</a>
 			<a href="./protezy.html">Czym są protezy?</a>
 		</nav>
 		<main>
-			<form action="/form_submit">
+			<form id="opinion-form">
 				<div class="form-element">
 					<label for="name-input">Imię / nick</label>
 					<input id="name-input" required name="name" type="text" />
@@ -41,10 +42,14 @@
 						id="question-input"
 						cols="50"
 						rows="20"
+						name="question"
 					></textarea>
 				</div>
 				<input type="submit" value="Wyślij" />
 			</form>
+
+			<pre id="json-container"></pre>
+			<button id="download-json-button">Pobierz JSON</button>
 		</main>
 	</body>
 </html>

@@ -4,7 +4,6 @@
 }
 
 body,
-
 html {
 	width: 100%;
 	height: 100vh;
@@ -24,7 +23,6 @@ nav {
 	align-items: center;
 	gap: 20px;
 
-	/*background-color: gray;         propozycja koloru*/
 	background-color: #1889e7;
 
 	padding: 10px;
@@ -33,8 +31,7 @@ nav {
 main {
 	height: 95%;
 	width: 100%;
-	/*background-color: pink;         propozycja koloru*/
-	background-color: white;
+	background-color: pink;
 
 	overflow-y: auto;
 	overflow-x: hidden;
@@ -42,17 +39,17 @@ main {
 }
 
 form {
-	width: 100%;
-	height: 100%;
+	width: 370px;
+	height: fit-content;
 	display: flex;
 	flex-flow: column nowrap;
-	align-items: center;
-	justify-content: center;
+	align-items: start;
+	justify-content: start;
 	padding: 10px;
 }
 
 .form-element {
-	width: 40%;
+	width: 100%;
 	display: flex;
 	flex-flow: row nowrap;
 
@@ -111,6 +108,8 @@ form {
 }
 
 .hidden {
+	display: none !important;
+}
 
 /* img-modal */
 
@@ -147,9 +146,13 @@ form {
 }
 
 /* kursor - klikniecie */
-.product-card img {
+.product-image {
 	cursor: zoom-in;
 }
 
-	display: none !important;
+#json-container {
+	width: 300px;
+	height: 300px;
+	background-color: lightgreen;
+	overflow: auto;
 }

@@ -29,9 +29,7 @@ nameSearch.addEventListener("input", () => {
 // Elementy powiększania przy kliknięciu
 const imageModal = document.getElementById("image-modal");
 const imageModalImg = document.getElementById("image-modal-img");
-const imageModalBackdrop = document.getElementById(
-	"image-modal-backdrop",
-);
+const imageModalBackdrop = document.getElementById("image-modal-backdrop");
 
 function showProducts() {
 	// Czyścimy katalog, by od nowa go zbudować
@@ -87,21 +85,25 @@ function showProducts() {
         <div>Nazwa: ${product.name}</div>
         ${subtype_div}
         <div>Opis: ${product.description}</div>
-		const img = div.querySelector(".product-image");
-		img.addEventListener("click", () => {
-			openImageModal(img.dataset.full);
-		});
     `;
 
 		// Dodanie elementu do strony
 		catalogueItemsContainer.appendChild(div);
 	});
+
+	const images = document.querySelectorAll(".product-image");
+	for (const image of images) {
+		image.addEventListener("click", () => {
+			openImageModal(image.dataset.full);
+		});
+	}
 }
 
 showProducts();
 
 // Funkcja otwierania i zamykania poszerzonego obrazu
 function openImageModal(src) {
+	console.log("open");
 	imageModalImg.src = src;
 	imageModal.classList.remove("hidden");
 }
