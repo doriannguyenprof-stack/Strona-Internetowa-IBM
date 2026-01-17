@@ -39,9 +39,12 @@ nav {
 }
 
 .nav-logo {
-  height: 40px;
+  position: absolute;
+  left: 20px;
+
+  height: calc(100% - 20px); /* dopasowanie do wysokości nav */
+  max-height: 50px;          /* zabezpieczenie */
   width: auto;
-  margin-right: 20px;
 }
 
 main {
