@@ -42,8 +42,7 @@ nav {
   position: absolute;
   left: 20px;
 
-  height: calc(100% - 30px);
-  max-height: 40px;          /* zabezpieczenie */
+  height: 80%;
   width: auto;
 }
 
