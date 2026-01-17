@@ -36,17 +36,14 @@ nav {
 	background-color: #f4f1eb;
 
 	padding: 10px;
-
-	position: relative;
 }
 
 .nav-logo {
   position: absolute;
   left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
 
-  height: 80%;
+  height: calc(100% - 20px);
+  max-height: 50px;          /* zabezpieczenie */
   width: auto;
 }
 
