@@ -41,8 +41,11 @@ nav {
 .nav-logo {
   position: absolute;
   left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
 
   height: 80%;
+  max-height: calc(100% - 20px);
   width: auto;
 }
 
