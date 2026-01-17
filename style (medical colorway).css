@@ -27,10 +27,15 @@ nav {
 	width: 100%;
 
 	display: flex;
+
+	flex-flow: row nowrap;
+	justify-content: center;
 	align-items: center;
+	gap: 20px;
 
 	background-color: #f4f1eb;
-	padding: 10px;
+
+	padding: 10px; 
 }
 
 .nav-logo {
