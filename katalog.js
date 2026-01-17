@@ -78,7 +78,7 @@ function showProducts() {
 				: "";
 
 		// Dodajemy wyświetlanie danych do elementu
-/*		div.innerHTML = `
+		div.innerHTML = `
         <div>Typ: ${product.type}</div>
         <img src="${product.image_url}" alt="product image"
 		class="product-image" data-full="${product.image_url}"/>
@@ -86,23 +86,6 @@ function showProducts() {
         ${subtype_div}
         <div>Opis: ${product.description}</div>
     `;
-*/
-		div.innerHTML = `
-  		<img
-    		src="${product.image_url}"
-    		alt="${product.name}"
-    		class="product-image"
-    		data-full="${product.image_url}"
-  		/>
-
-  		<h3 class="product-name">${product.name}</h3>
-
-  		${subtype_div}
-
- 	    <p class="product-description">
-    		${product.description}
-  		</p>
-	`;
 
 		// Dodanie elementu do strony
 		catalogueItemsContainer.appendChild(div);
