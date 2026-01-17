@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Baza Danych | Kontakt</title>
+		<link href="style.css" rel="stylesheet" />
+		<script src="form.js" defer></script>
+	</head>
+	<body>
+		<nav>
+			<img src="logo.png" alt="Logo" class="nav-logo">
+			
+			<a href="./index.html">Homepage</a>
+			<a href="./formularz.html">Formularz kontaktowy</a>
+			<a href="./katalog.html">Katalog produktów</a>
+			<a href="./egzoszkielety.html">Czym są egzoszkielety?</a>
+			<a href="./protezy.html">Czym są protezy?</a>
+		</nav>
+		<main>
+			<form id="opinion-form">
+				<div class="form-element">
+					<label for="name-input">Imię / nick</label>
+					<input id="name-input" required name="name" type="text" />
+				</div>
+				<div class="form-element">
+					<label for="email-input">Email</label>
+					<input
+						id="email-input"
+						required
+						name="email"
+						type="email"
+					/>
+				</div>
+				<div class="form-element">
+					<label for="phone-input">Telefon</label>
+					<input id="phone-input" required type="tel" name="phone" />
+				</div>
+				<div class="v-form-element">
+					<label for="question-input"
+						>Prześlij swoją opinię lub zapytanie dotyczące strony (minimum 30 znaków)</label
+					>
+					<textarea
+						id="question-input"
+						cols="50"
+						rows="20"
+						name="question"
+					></textarea>
+				</div>
+				<input type="submit" value="Wyślij" />
+			</form>
+
+			<pre id="json-container"></pre>
+			<button id="download-json-button">Pobierz JSON</button>
+		</main>
+	</body>
+</html>

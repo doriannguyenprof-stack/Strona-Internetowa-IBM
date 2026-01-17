@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Baza danych | Katalog</title>
+		<link href="style.css" rel="stylesheet" />
+		<script type="module" src="katalog.js"></script>
+	</head>
+	<body>
+		<nav>
+			<img src="logo.png" alt="Logo" class="nav-logo">
+			
+			<a href="./index.html">Homepage</a>
+			<a href="./formularz.html">Formularz kontaktowy</a>
+			<a href="./katalog.html">Katalog produktów</a>
+			<a href="./egzoszkielety.html">Czym są egzoszkielety?</a>
+			<a href="./protezy.html">Czym są protezy?</a>
+		</nav>
+		<main>
+			<div id="catalogue">
+				<div id="catalogue-filters">
+					<label for="type-select">Typ produktu</label>
+					<select id="type-select">
+						<option value="wszystko">Wszystko</option>
+						<option value="egzoszkielet">Egzoszkielet</option>
+						<option value="proteza">Proteza</option>
+					</select>
+					<select id="prothesis-subtype-select">
+						<option value="wszystkie">Wszystkie</option>
+						<option value="górna">Górna</option>
+						<option value="dolna">Dolna</option>
+					</select>
+					<input
+						id="name-search"
+						type="text"
+						placeholder="Szukaj..."
+					/>
+				</div>
+				<div id="catalogue-items"></div>
+			</div>
+		</main>
+		<!-- powiekszanie zdjecia -->
+		<div id="image-modal" class="hidden">
+		<div id="image-modal-backdrop"></div>
+		<img id="image-modal-img" alt="Powiększone zdjęcie" />
+		</div>
+	</body>
+</html>

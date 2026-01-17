@@ -1,0 +1,243 @@
+:root {
+	font-family: "Neue Montreal";
+	font-size: 12px;
+}
+
+html, body {
+ 	margin: 0;
+ 	padding: 0;
+ 	min-height: 100%;
+}
+
+body {
+  	background: url("bckgrd.png") center / cover no-repeat fixed;
+	background-attachment: scroll;
+}
+
+html {
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	font-size: 18px;
+	height: 5%;
+	width: 100%;
+
+	display: flex;
+
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+
+	background-color: #f4f1eb;
+
+	padding: 10px;
+}
+
+.nav-logo {
+  position: absolute;
+  left: 20px;
+
+  height: calc(100% - 20px);
+  max-height: 50px;          /* zabezpieczenie */
+  width: auto;
+}
+
+main {
+	height: auto;
+	min-height: 95%;
+	width: 100%;
+	background-color: transparent;
+
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 10px;
+}
+
+form {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.form-element {
+	width: 40%;
+	display: flex;
+	flex-flow: row nowrap;
+
+	align-items: center;
+	justify-content: space-between;
+}
+
+.form-element > input {
+	width: 200px;
+}
+
+
+.v-form-element {
+	width: 40%;
+	display: flex;
+	flex-flow: column nowrap;
+
+	align-items: start;
+	justify-content: space-between;
+}
+
+#catalogue {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+
+	gap: 10px;
+}
+
+.product-card {
+	display: flex;
+	flex-flow: column nowrap;
+
+	max-width: 300px;
+	max-height: 300px;
+	width: 300px;
+	height: 300px;
+	overflow-y: auto;
+
+	border: 1px solid black;
+	border-radius: 12px;
+	padding: 4px;
+
+	background-color: white;
+}
+
+.product-card > img {
+	max-height: 100px;
+	max-width: 200px;
+}
+
+#catalogue-items {
+	display: flex;
+	flex-flow: row wrap;
+	gap: 20px;
+}
+
+.hidden {
+
+/* img-modal */
+
+#image-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#image-modal.hidden {
+	display: none;
+}
+
+#image-modal-backdrop {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	cursor: pointer;
+}
+
+#image-modal-img {
+	position: relative;
+	max-width: 90%;
+	max-height: 90%;
+	border-radius: 8px;
+	box-shadow: 0 0 20px black;
+}
+
+/* kursor - klikniecie */
+.product-card img {
+	cursor: zoom-in;
+}
+
+	display: none !important;
+}
+
+#json-container {
+	width: 300px;
+	height: 300px;
+	background-color: lightgreen;
+	overflow: auto;
+}
+
+a {
+  	color: #63c390;
+	border-width: 1px;
+  	border-style: solid;
+  	border-color: #63c390;
+  	padding: 4px 8px;    
+  	border-radius: 4px;   
+	border-color: #63c390;	
+}
+
+a:link {
+  	color: #63c390; /* normalny link */
+	text-decoration: none;
+}
+
+a:visited {
+  	color: #63c390; /* odwiedzony */
+}
+
+a:hover {
+  	color: #117E9C; /* po najechaniu myszką */
+	border-color: #117E9C;
+}
+
+a:active {
+  	color: #117E9C; /* w trakcie kliknięcia */
+}
+
+/*karty produktów*/
+.product-card {
+  width: 300px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.product-image {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.product-name {
+  font-size: 16px;
+  margin: 0;
+}
+
+.product-description {
+  font-size: 13px;
+  line-height: 1.4;
+
+  /* skrócenie opisu */
+  max-height: 4.2em;      /* ~3 linijki */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

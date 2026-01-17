@@ -1,0 +1,158 @@
+{
+  "products": [
+    {
+      "type": "egzoszkielet",
+      "image_url": "https://exoskeletonreport.com/wp-content/uploads/2017/03/H-WEX-or-HUMA-2017.jpg",
+      "name": "H-MEX",
+      "description": "H-MEX (Hyundai Medical Exoskeleton) to medyczny, zasilany egzoszkielet opracowany przez Hyundai, zaprojektowany przede wszystkim dla osób z urazami rdzenia kręgowego i innymi schorzeniami, które uniemożliwiają samodzielne chodzenie. Urządzenie zakłada się na dolne partie ciała — nogi, biodra i plecy — i dzięki silnikom w stawach biodrowych i kolanowych oraz sterowaniu użytkownik może stać, chodzić, siadać, wchodzić i schodzić po schodach, używając specjalnych kijów do sterowania ruchem."
+    },
+    {
+      "type": "egzoszkielet",
+      "image_url": "https://tukan.info.pl/wp-content/uploads/2024/07/sg-robot-eksogt.jpeg",
+      "name": "EksoGT",
+      "description": "Egzoszkielet Ekso GT/NR firmy Ekso Bionics to przenośny, bioniczny szkielet stworzony z myślą o rehabilitacji pacjentów z porażeniem lub niedowładem kończyn dolnych. Dzięki temu urządzeniu pacjenci mogą wykonywać ruchy, takie jak wstawanie i siadanie na krześle, a także chód, zachowując naturalne przenoszenie obciążenia między kończynami. Egzoszkielet jest zasilany bateryjnie i wykorzystuje silniki do wspomagania utraconych funkcji nerwowo-mięśniowych."
+    },
+     {
+      "type": "egzoszkielet",
+      "image_url": "https://www.cyberdyne.jp/english/products/images/lowerlimb_medical/img_specifications_02.jpg",
+      "name": "Medical HAL",
+      "description": "Medical HAL – wersja na kończyny dolne – jest dopuszczony w UE jako wyrób medyczny dla pacjentów z zespołem objawów niepełnosprawności chodu pochodzenia mięśniowo-szkieletowego (Musculoskeletal Ambulation Disability Symptom Complex, MADS), takich jak urazy rdzenia kręgowego, urazowe uszkodzenia mózgu, choroby naczyniowo-mózgowe oraz inne choroby mózgu i układu nerwowo-mięśniowego."
+    }, 
+    {
+      "type": "egzoszkielet",
+      "image_url": "https://www.cyberdyne.com/wp-content/uploads/2020/07/Screen_Shot_2020-04-27_at_12.48.41_AM-1.png",
+      "name": "HAL Lower Limb",
+      "description": "Technologia HAL Lower Limb pomaga osobom cierpiącym na uraz rdzenia kręgowego odzyskać zdolność chodzenia."
+    },
+     {
+      "type": "egzoszkielet",
+      "image_url": "https://f.westonrobot.com/46512_16196762586294.jpg?imageView2/2/w/818/q/89/format/webp",
+      "name": "PHOENIX",
+      "description": "Medyczny egzoszkielet PHOENIX jest najlżejszym i najbardziej zaawansowanym egzoszkieletem na świecie, zaprojektowanym w celu pomagania osobom z zaburzeniami mobilności w przyjmowaniu pozycji stojącej i poruszaniu się. W klinice, w domu oraz w miejscu pracy Phoenix umożliwił już wielu osobom wstawanie, chodzenie oraz prowadzenie rozmów z innymi na poziomie wzroku. Phoenix posiada jedynie dwa siłowniki umieszczone w stawach biodrowych; stawy kolanowe zostały zaprojektowane tak, aby zapewniać stabilne podparcie w fazie podporu oraz odpowiedni prześwit nad podłożem w fazie przenoszenia nogi. Phoenix został niedawno zatwierdzony przez FDA."
+    },
+     {
+      "type": "egzoszkielet",
+      "image_url": "https://news.harvard.edu/gazette/wp-content/uploads/2024/01/Device_mannequin.jpg",
+      "name": "Soft robotic exosuit",
+      "description": "Badacze z Harvardu i Boston University opracowali miękki, noszony egzorobot (soft exosuit) wspomagający chód u osób z chorobą Parkinsona. Urządzenie, zakładane na biodra i uda, delikatnie wspiera ruch nóg podczas kroku, co eliminuje zjawisko „freezing of gait”. W badaniu klinicznym technologia pozwoliła pacjentowi chodzić płynnie, szybciej i na dłuższych dystansach, znacząco poprawiając mobilność i samodzielność."
+    },
+    {
+      "type": "egzoszkielet",
+      "image_url": "https://exoskeletonreport.com/wp-content/uploads/2016/08/ReWalk-6-via-ReWalk.jpg",
+      "name": "ReWalk",
+      "description": "Jest to egzoszkielet zaprojektowany przede wszystkim do zastosowań klinicznych. Może być również używany jako narzędzie treningowe dla systemu ReWalk Personal 6.0 przeznaczonego do użytku domowego. W 2016 roku ReWalk jest preferowanym egzoszkieletem do użytku domowego i jest także szeroko stosowany w rehabilitacji chodu. Na całym świecie jest obecnie prawie 200 urządzeń w aktywnym użyciu, a liczba ta ma się gwałtownie zwiększyć."
+    },
+    {
+      "type": "proteza",
+      "subtype": "górna",
+      "image_url": "https://www.inovamed.pl/wp-content/uploads/2023/07/glazeone.png",
+      "name": "Glaze Prosthetics One",
+      "description": "Ultra lekka kosmetyczna proteza ręki wykonana w technologii skanu i druku sd mjf. Designerska indywidualna proteza kończyny górnej pozwala na wymianę wersji protezy ramienia w tym samym leju protetycznym. Jak również umożliwia dopasowanie wersji protezy ręki do humoru i stroju Pacjenta. Jest wytrzymała i efektowna."
+    },
+    {
+      "type": "proteza",
+      "subtype": "górna",
+      "image_url": "https://www.inovamed.pl/wp-content/uploads/2023/07/glazekids.png",
+      "name": "Glaze Kids",
+      "description": "Proteza ręki zaprojektowana specjalnie z myślą o dzieciach. To ultra lekka, zabawkowa z wieloma końcówkami proteza kończyny wykonana w technologii skanu i druku sd mjf. zaprojektowana dla dzieci. Designerska indywidualna proteza kończyny górnej jest kolorowa i indywidualnie dopasowana do Małego Pacjenta. Opatentowany mechanizm nadgarstka protezy ręki ConnectX umożliwia 8 pozycji."
+    },
+    {
+      "type": "proteza",
+      "subtype": "górna",
+      "image_url": "https://www.inovamed.pl/wp-content/uploads/2025/11/hp1-403x302.jpg",
+      "name": "Hero PRO",
+      "description": "Proteza mioelektryczna Hero PRO to rozwiązanie, stworzone z myślą o codziennym komforcie i funkcjonalności. Wyposażona w cztery niezależne silniki zapewnia płynne, precyzyjne ruchy oraz dużą siłę chwytu, zachowując przy tym niewielką wagę. Napędzany kciuk umożliwia naturalne otwieranie i zamykanie dłoni, a dostępność siedmiu rodzajów chwytów pozwala dopasować jej działanie do różnych czynności wykonywanych na co dzień. Proteza oferuje także zgięcie i wyprost nadgarstka w zakresie 45 stopni oraz pełny obrót o 360 stopni, co daje swobodę i naturalność ruchu. Wyróżnia ją wodoodporność. Hero PRO jest jedną z najlżejszych protez w swojej klasie, waży zaledwie około 540 gramów wraz z baterią. Wbudowany akumulator ładowany przez USB-C zapewnia wygodę użytkowania, a końcówki palców są przystosowane do obsługi ekranów dotykowych. To zaawansowana technologicznie proteza, która łączy siłę, precyzję i estetykę."
+    },
+    {
+      "type": "proteza",
+      "subtype": "górna",
+      "image_url": "https://www.inovamed.pl/wp-content/uploads/2023/10/fillauer-1.png",
+      "name": "HAK FILLAUER ETD1",
+      "description": "Mioelektryczny hak roboczy MC ETD to wytrzymała, funkcjonalna i wodoodporna końcówka robocza protezy ręki. Sterowanie hakiem protezy ręki odbywa się za pomocą impulsów mięśniowych, dzięki temu Pacjent decyduje o otwarciu lub zaciśnięciu haka protezy ręki poprzez napięcie odpowiednich mięśni."
+    },
+    {
+      "type": "proteza",
+      "subtype": "górna",
+      "image_url": "https://www.inovamed.pl/wp-content/uploads/2023/10/przegub.png",
+      "name": "Przegub ramienny Axis Exo",
+      "description": "Przegub ramienny Axis Exo to mechaniczne rozwiązanie dla osób po amputacji całej kończyny górnej, które pozwala użytkownikowi na ruch protezy ręki w dwóch płaszczyznach. Dzięki temu podczas użytkowania protezy ręki zmniejsza się konieczność wykonywania ruchów kompensacyjnych ciałem."
+    },
+    {
+      "type": "proteza",
+      "subtype": "górna",
+      "image_url": "https://www.inovamed.pl/wp-content/uploads/2023/10/ilimb-1.png",
+      "name": "i-Limb Quantum",
+      "description": "i-Limb Quantum to wysokiej jakości wieloprzegubowa proteza ręki mioelektryczna. Jako jedyna proteza ręki na rynku daje możliwość aż czterech różnych sposobów sterowania: napięciem mięśni, ruchem protezy w przestrzeni, za pomocą aplikacji oraz za pomocą kilkunastu czujników, które można umieścić w różnych miejscach w domu, samochodzie czy w pracy."
+    },
+    {
+      "type": "proteza",
+      "subtype": "górna",
+      "image_url": "https://www.inovamed.pl/wp-content/uploads/2023/10/whizzlink.png",
+      "name": "Whizzlink",
+      "description": "Whizzlink to proteza ręki z funkcjonalnością protezy mioelektrycznej i niepowtarzalnym designem. Dzięki wykorzystaniu nowoczesnych technologii produkcji takich jak druk 3D MJF protezy reki Whizzlink są ultra lekkie i ultra wytrzymałe. Decydując się na ta protezę ręki wybor kolorystyki a także personalizacji jest nieograniczony. Whizzlink kompatybilny jest z wszystkimi protezami mioelektrycznymi dostępnymi na rynku."
+    },
+    {
+      "type": "proteza",
+      "subtype": "górna",
+      "image_url": "https://www.inovamed.pl/wp-content/uploads/2023/10/zeus.png",
+      "name": "Zeus",
+      "description": "Zeus to wieloprzegubowa proteza mioelektryczna, dającą możliwość korzystania z 12 różnych wzorców chwytu. Proteza ręki sterowana jest za pomocą impulsów mięśniowych. Zeus Oprócz funkcjonalności protezy ręki zapewnia wysoką wytrzymałość, odporność na uderzenia i wstrząsy. Silny chwyt i precyzja Zeusa pozwala z łatwością wykonywać codzienne czynności niezależnie od tego czy wymaga to chwytania proteza ręki małych i delikatnych przedmiotów czy przenoszenia ciężkich rzeczy."
+    },
+    {
+      "type": "proteza",
+      "subtype": "dolna",
+      "image_url": "https://www.inovamed.pl/wp-content/uploads/2023/10/romedis.png",
+      "name": "Romedis",
+      "description": "Kapa kolanowa zapewniająca kontrolę i komfort podczas chodzenia. Ułatwia zginanie kolana i zapewnia pełną swobodę ruchu bezkonieczności używania żelu."
+    },
+    {
+      "type": "proteza",
+      "subtype": "dolna",
+      "image_url": "https://www.inovamed.pl/wp-content/uploads/2023/10/plie.png",
+      "name": "Plie",
+      "description": "PLIE to jedno z najlżejszych i najmniejszych przegubów elektronicznych protezy nogi. Jest odporny na działanie wody. System hydrauliczny kolana protezowego zarządzany jest mikroprocesorem. Proteza kończyny dolnej z tym elementem Zapewnia możliwość bezpiecznego poruszania się z różną prędkości w każdym terenie. Nowatorska komora pneumatyczna wspomagająca fazę wyprostu umożliwia płynną zmianę prędkości chodu na tak wyposażonej protezie nogi. Również proteza kończyny dolnej umożliwia naprzemienne schodzenie po schodach i po pochylni."
+    },
+    {
+      "type": "proteza",
+      "subtype": "dolna",
+      "image_url": "https://www.inovamed.pl/wp-content/uploads/2023/10/rheoknee.png",
+      "name": "Rheo Knee XC",
+      "description": "Rheo Knee XC to element protezy nogi oparty na bionicznej technologii automatycznie wyczuwającej potrzeby Użytkownika. Ten element protezy nogi uczy się sposobu chodu. Dzięki sensorom zawartym w kolanie protezowym informacje zbierane sa 1000 razy na sekundę, dzięki czemu kolano protezowe błyskawicznie dostosowuje się do zmian terenu i zabezpiecza użytkownika przed ewentualnym upadkiem."
+    },
+    {
+      "type": "proteza",
+      "subtype": "dolna",
+      "image_url": "https://www.inovamed.pl/wp-content/uploads/2023/10/proflexunity.png",
+      "name": "Pro Flex Unity",
+      "description": "Pro Flex Unity jest pierwszym w na rynku podciśnieniowym systemem zawieszenia protezy nogi, który działa bez użycia kapy kolanowej. Dzięki zastosowaniu pompy połączonej ze stopą protezową uzyskujemy aktywne podciśnienie w leju, które jest wytwarzane podczas ruchu przy obciążeniu stopy. Unity jest lekkim, cichym i niezwykle prostym systemem aktywnego zawieszenia protezy nogi. Dzięki zastosowaniu tego zawieszenia protezy nogi uzyskamy poprawę komfortu, mobilności, równowagi, stabilności i symetrii chodu, a także zmniejszymy ryzyko upadku."
+    },
+    {
+      "type": "proteza",
+      "subtype": "dolna",
+      "image_url": "https://www.inovamed.pl/wp-content/uploads/2023/10/elan-IC.png",
+      "name": "Elan IC Blatchford",
+      "description": "ELANIC to mikroprocesorowa hydrauliczna stopa protezowa, którą charakteryzuje kompaktowa i lekka konstrukcja zapewniająca duży komfort i bezpieczeństwo, płynniejszy chód oraz równomierne obciążenie kończyn. Stopa protezowa ta naśladuje naturalną funkcję stopy i stawu skokowego, dostosowuje opór hydrauliczny i zapewnia zwrot energii."
+    },
+    {
+      "type": "proteza",
+      "subtype": "dolna",
+      "image_url": "https://www.inovamed.pl/wp-content/uploads/2023/10/kx06.png",
+      "name": "KX06 Blatchford",
+      "description": "KX06 jest solidnym, policentrycznym przegubem kolanowym protezy nogi, który w połączeniu z hydraulicznym tłokiem zapewnia płynną pracę protezy nogi i wyjątkową stabilność geometryczną w każdym terenie. Wodoodporna konstrukcja tej części protezy nogi sprawia, że KX06 jest idealny dla aktywnych użytkowników potrzebujących niezawodnego kolana w protezie nogi poruszających się nawet w mokrym i zakurzonym środowisku. Konstrukcja policentryczna skraca długość kończyny podczas przenoszenia, zwiększając prześwit między podłożem a protezą nogi zapobiegając upadkom."
+    },
+    {
+      "type": "proteza",
+      "subtype": "dolna",
+      "image_url": "https://www.inovamed.pl/wp-content/uploads/2023/10/linx.png",
+      "name": "LINX",
+      "description": "LINX to cześć protezy nogi – w pełni zintegrowany system przegubu kolanowego i stopy protezowej, sterowany mikroprocesorem. Element protezy nogi dedykowany po amputacji powyżej kolana. Z systemem Linx proteza nogi zapewnia wrażenia naśladujące złożoną strukturę naturalnej kończyny dolnej. Proteza nogi z tym systemem przegubu kolanowego aktywnie wykrywa i analizuje ruch użytkownika i teren dostarczając strumień informacji do hydraulicznego systemu wsparcia. Rezultatem użytkowania protezy nogi z tym systemem przegubu kolanowego jest doświadczenie chodu bliskiego naturze."
+    },
+    {
+      "type": "proteza",
+      "subtype": "dolna",
+      "image_url": "https://www.markprotetik.pl/wp-content/uploads/2017/03/Kinterra-Freedom-Innovation.png",
+      "name": "Kinterra– Freedom Innovation",
+      "description": "System stopy łączący rozwiązania hydrauliczne z technologią włókna węglowego by zapewnić wyjątkowo normalny chód z niskim i średnim poziomem obciążeń, niezależnie od kąta nachylenia podłoża czy prędkości przemieszczania się. Hydrauliczny staw skokowy zapewnia pełniejszy kontakt stopy z podłożem oraz bardziej symetryczny chód, lepszą stabilność i bezpieczeństwo na pochyłościach oraz na zróżnicowanym terenie, zmniejszenie obciążeń wewnątrz leja, i zwiększony poziom komfortu podczas siedzenia lub wykonywania aktywności fizycznych."
+    }
+  ]
+}
