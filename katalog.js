@@ -74,7 +74,7 @@ function showProducts() {
 		div.classList = "product-card";
 		let subtype_div =
 			product.type == "proteza"
-				? `<div>Podtyp: ${product.subtype}</div>`
+				? `<div><strong>Podtyp:</strong> ${product.subtype}</div>`
 				: "";
 
 		// Dodajemy wyświetlanie danych do elementu
