@@ -4,6 +4,7 @@
 }
 
 * {
+	
 	box-sizing: border-box;
 }
 html,
@@ -14,17 +15,18 @@ body {
 }
 
 body {
-	width: 100vw;
-	height: 100vh;
 	background: url("bckgrd.png") center / cover no-repeat fixed;
 	background-attachment: scroll;
 }
 
-html {
-	width: 100vw;
-	height: 100vh;
-	margin: 0;
-	padding: 0;
+main {
+	height: calc(100% - 50px);
+	width: 100%;
+	background-color: transparent;
+
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 10px;
 }
 
 nav {
@@ -51,16 +53,6 @@ nav {
 	height: calc(100% - 20px);
 	max-height: 50px; /* zabezpieczenie */
 	width: auto;
-}
-
-main {
-	height: calc(100% - 50px);
-	width: 100%;
-	background-color: transparent;
-
-	overflow-y: auto;
-	overflow-x: hidden;
-	padding: 10px;
 }
 
 form {
@@ -250,4 +242,88 @@ a:active {
 	max-height: 4.2em; /* ~3 linijki */
 	overflow: hidden;
 	text-overflow: ellipsis;
+}
+
+/*protezy, inne karty*/
+.content {
+	max-width: 900px;
+	margin: 40px auto;
+	padding: 20px;
+}
+
+section {
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 30px;
+	margin-bottom: 30px;
+	border-radius: 16px;
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 22px;
+	margin-bottom: 15px;
+	border-left: 4px solid #63c390;
+	padding-left: 12px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 1.7;
+	margin-bottom: 14px;
+}
+
+strong {
+	color: #117e9c;
+	font-weight: 600;
+}
+
+/* wideo na YouTube */
+iframe {
+	display: block;
+	margin: 20px auto;
+	border-radius: 12px;
+	max-width: 100%;
+}
+
+.info-links {
+	margin-top: 25px;
+	padding-left: 0;
+	list-style: none;
+
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.info-links li a {
+	display: inline-block;
+	padding: 10px 14px;
+	border-radius: 8px;
+
+	font-size: 14px;
+	font-weight: 500;
+
+	background-color: rgba(99, 195, 144, 0.1);
+	border: 1px solid #63c390;
+
+	transition: all 0.2s ease;
+}
+
+.info-links li a:hover {
+	background-color: #63c390;
+	color: white;
+}
+
+header.intro {
+	background-color: white;
+	padding: 30px;
+	margin: 30px auto;
+	max-width: 900px;
+	border-radius: 16px;
+	text-align: center;
 }
