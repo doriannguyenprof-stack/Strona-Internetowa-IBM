@@ -1,9 +1,20 @@
 :root {
-	font-family: "Lucida Console";
+	font-family: "Neue Montreal";
 	font-size: 12px;
 }
 
-body,
+html,
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+}
+
+body {
+	background: url("bckgrd.png") center / cover no-repeat fixed;
+	background-attachment: scroll;
+}
+
 html {
 	width: 100%;
 	height: 100vh;
@@ -23,15 +34,25 @@ nav {
 	align-items: center;
 	gap: 20px;
 
-	background-color: #1889e7;
+	background-color: #f4f1eb;
 
 	padding: 10px;
 }
 
+.nav-logo {
+	position: absolute;
+	left: 20px;
+
+	height: calc(100% - 20px);
+	max-height: 50px; /* zabezpieczenie */
+	width: auto;
+}
+
 main {
-	height: 95%;
+	height: auto;
+	min-height: 95%;
 	width: 100%;
-	background-color: pink;
+	background-color: transparent;
 
 	overflow-y: auto;
 	overflow-x: hidden;
@@ -39,17 +60,17 @@ main {
 }
 
 form {
-	width: 370px;
-	height: fit-content;
+	width: 100%;
+	height: 100%;
 	display: flex;
 	flex-flow: column nowrap;
-	align-items: start;
-	justify-content: start;
+	align-items: center;
+	justify-content: center;
 	padding: 10px;
 }
 
 .form-element {
-	width: 100%;
+	width: 40%;
 	display: flex;
 	flex-flow: row nowrap;
 
@@ -146,7 +167,7 @@ form {
 }
 
 /* kursor - klikniecie */
-.product-image {
+.product-card > img {
 	cursor: zoom-in;
 }
 
@@ -155,4 +176,67 @@ form {
 	height: 300px;
 	background-color: lightgreen;
 	overflow: auto;
+}
+
+a {
+	color: #63c390;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #63c390;
+	padding: 4px 8px;
+	border-radius: 4px;
+	border-color: #63c390;
+}
+
+a:link {
+	color: #63c390; /* normalny link */
+	text-decoration: none;
+}
+
+a:visited {
+	color: #63c390; /* odwiedzony */
+}
+
+a:hover {
+	color: #117e9c; /* po najechaniu myszką */
+	border-color: #117e9c;
+}
+
+a:active {
+	color: #117e9c; /* w trakcie kliknięcia */
+}
+
+/*karty produktów*/
+.product-card {
+	width: 300px;
+	background-color: white;
+	border-radius: 12px;
+	padding: 12px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.product-image {
+	width: 100%;
+	height: 160px;
+	object-fit: contain;
+	border-radius: 8px;
+}
+
+.product-name {
+	font-size: 16px;
+	margin: 0;
+}
+
+.product-description {
+	font-size: 13px;
+	line-height: 1.4;
+
+	/* skrócenie opisu */
+	max-height: 4.2em; /* ~3 linijki */
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
