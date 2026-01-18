@@ -9,8 +9,8 @@
 	</head>
 	<body>
 		<nav>
-			<img src="logo.png" alt="Logo" class="nav-logo">
-			
+			<img src="logo.png" alt="Logo" class="nav-logo" />
+
 			<a href="./index.html">Homepage</a>
 			<a href="./formularz.html">Formularz kontaktowy</a>
 			<a href="./katalog.html">Katalog produktów</a>
@@ -34,21 +34,27 @@
 				</div>
 				<div class="form-element">
 					<label for="phone-input">Telefon</label>
-					<input id="phone-input" required type="tel" name="phone" 
-					placeholder="XXX-XXX-XXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"/>
+					<input
+						id="phone-input"
+						required
+						type="tel"
+						name="phone"
+						placeholder="XXX-XXX-XXX"
+						pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+					/>
 				</div>
 				<div class="v-form-element">
 					<label for="question-input"
-						>Prześlij swoją opinię lub zapytanie dotyczące strony (minimum 30 znaków)
-						</label>
-						<input name="question"
-						maxlength="100" minlength="30"/>
+						>Prześlij swoją opinię lub zapytanie dotyczące strony
+						(minimum 30 znaków)
+					</label>
 					<textarea
 						id="question-input"
 						cols="50"
 						rows="20"
 						name="question"
-						
+						maxlength="300"
+						minlength="30"
 					></textarea>
 				</div>
 				<input type="submit" value="Wyślij" />
