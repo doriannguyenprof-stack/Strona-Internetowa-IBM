@@ -113,6 +113,8 @@ form {
 .product-card > img {
 	max-height: 100px;
 	max-width: 200px;
+/* kursor wskazujacy zoom - klikniecie */
+	cursor: zoom-in;
 }
 
 #catalogue-filters {
@@ -166,11 +168,6 @@ form {
 	box-shadow: 0 0 20px black;
 }
 
-/* kursor - klikniecie */
-.product-card > img {
-	cursor: zoom-in;
-}
-
 #json-container {
 	width: 300px;
 	height: 300px;
@@ -179,13 +176,11 @@ form {
 }
 
 a {
-	color: #63c390;
 	border-width: 1px;
 	border-style: solid;
 	border-color: #63c390;
 	padding: 4px 8px;
 	border-radius: 4px;
-	border-color: #63c390;
 }
 
 a:link {
