@@ -11,6 +11,7 @@ form.addEventListener("submit", (event) => {
 		null,
 		4,
 	);
+	form.reset();
 });
 
 const downloadJsonButton = document.getElementById("download-json-button");
