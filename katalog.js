@@ -79,12 +79,12 @@ function showProducts() {
 
 		// Dodajemy wyświetlanie danych do elementu
 		div.innerHTML = `
-        <div>Typ: ${product.type}</div>
+        <div><strong>Typ:</strong> ${product.type}</div>
         <img src="${product.image_url}" alt="product image"
 		class="product-image" data-full="${product.image_url}"/>
-        <div>Nazwa: ${product.name}</div>
+        <div><strong>Nazwa:</strong> ${product.name}</div>
         ${subtype_div}
-        <div>Opis: ${product.description}</div>
+        <div><strong>Opis:</strong> ${product.description}</div>
     `;
 
 		// Dodanie elementu do strony
